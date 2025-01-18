@@ -38,4 +38,6 @@ Maintaining and improving this bot takes time and effort. If you find this bot h
 * **Bitget (BGB):** `378e52c6ea9de190f5dc0e9c1f439b51`
 * **Bitcoin (BTC):** `bc1qpal8tmflxdz4gs70msardtqf88glkpxuhhvy09`
 
+**I am working to add more languages for creating bots in any language.You can donate if you are interested**
+
 **Enjoy a cleaner and more focused Telegram group!**
