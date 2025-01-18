@@ -20,7 +20,7 @@ Say goodbye to unwanted advertisements and spam in your Telegram groups with thi
 * **New Member Greetings:**  Welcomes new members and informs them about the no-advertising rule.
 * **Owner-Specific Commands (for bot owner change owner id with your telegram id):**
     * **`/member_transfer`:**  Facilitates the transfer of members between groups. *(Note: This command is restricted to the bot owner)*
-    * **`/broadcast [your message]`:**  Allows the bot owner to send a broadcast message to all users in the current chat. *(Note: This command is restricted to the bot owner and can only be used once to prevent spam)*
+    * **`/broadcast [your message]`:**  Allows the bot owner to send a broadcast message to all users in the current chat. *(Note: This command is restricted to the bot owner)*
 
 **How to Use:**
 
