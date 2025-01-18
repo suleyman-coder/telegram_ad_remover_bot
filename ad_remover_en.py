@@ -1,3 +1,5 @@
+#If you have any questions you can contact with @fullstackofdeveloper on telegram
+
 import telebot
 import time
 
@@ -207,6 +209,7 @@ def transfer_members(message, source_group_id, destination_group_id):
 def owner_command(message):
     global reklam_gonderildi
     owner_id = 5138836209
+    #replace this place with your id for broadcasting to the all users of the bot
     chat_id = message.chat.id
     user_id = message.from_user.id
     if user_id == owner_id and not reklam_gonderildi:
@@ -216,12 +219,14 @@ def owner_command(message):
         for user_id in user_ids:
             bot.send_message(user_id, reklam_mesaji)
         reklam_gonderildi = True
+        reklam_gonderildi = False
+        #i have updated this code
         bot.send_message(chat_id, "Advertisement sent")
     elif user_id == owner_id and reklam_gonderildi:
         bot.send_message(chat_id, "Advertisement has already been sent.")
     else:
-        bot.send_message(chat_id, "Only @fullstackofdeveloper can use it")
-
+        bot.send_message(chat_id, "Only bot owner can use it") 
+        
 def get_all_chat_member_ids(chat_id):
     user_ids = []
     members = bot.get_chat_members(chat_id)
@@ -280,3 +285,4 @@ if __name__ == '__main__':
     run_bot()
 
 bot.polling()
+
