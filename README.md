@@ -2,6 +2,9 @@
 
 Say goodbye to unwanted advertisements and spam in your Telegram groups with this powerful and completely free bot! Created by @fullstackofdeveloper, this bot is designed to help you maintain a clean and focused community environment effortlessly. Simply add the bot to your group and make it an administrator to unleash its capabilities.
 
+**Library installation:**
+*pip install pyTelegramBotApi
+
 **Key Features:**
 
 * **Automatic Ad Detection and Removal:** This bot intelligently detects and removes messages containing common advertising keywords, links (http://, https://, t.me/), Telegram usernames (@), and specific unwanted terms like "pubg".
